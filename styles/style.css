@@ -17,9 +17,10 @@ body > div {
   background-color: #fff;
 }
 
-input { /*Нужно указывать дополнительно, потому что правило для body на содержимое input не распространяется */
+input[type="button"] { /*Нужно указывать дополнительно, потому что правило для body на содержимое input не распространяется */
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  cursor: pointer;
 }
 
 
