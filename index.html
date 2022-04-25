@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
-
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
 
   <body>
@@ -19,9 +18,9 @@
         <div class="logo"><span>Web</span>Studio</div>
         <nav class="main-menu">
           <ul>
-            <li><a href="">Студия</a></li>
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
+            <li selected><a href="index.html">Студия</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </nav>
         <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -31,11 +30,11 @@
       <main>
         <!-- Order section -->
         <section class="order-section">
-          <p>
-            Эффективные решения<br>
+          <h1>
+            Эффективные решения<br />
             для вашего бизнеса
-          </p>
-          <button class="order">Заказать услугу</button>
+          </h1>
+          <input class="order" type="button" value="Заказать услугу" />
         </section>
         <!-- features section -->
         <section class="features-section">
@@ -59,52 +58,54 @@
         <!-- About us section -->
         <section class="about-us-section">
           <h2>Чем мы занимаемся</h2>
-          <div>
-            <img src="images/about-us1.jpg" alt="Компьютеры 1">
-            <img src="images/about-us2.jpg" alt="Компьютеры 2">
-            <img src="images/about-us3.jpg" alt="Компьютеры 3">
-          </div>
+          <ul>
+            <li><img src="images/about-us1.jpg" alt="Компьютеры 1" /></li>
+            <li><img src="images/about-us2.jpg" alt="Компьютеры 2" /></li>
+            <li><img src="images/about-us3.jpg" alt="Компьютеры 3" /></li>
+          </ul>
         </section>
         <!-- Team section -->
         <section class="team-section">
           <h2>Наша команда</h2>
-          <div>
-            <div class="team-member">
-              <img src="images/member1.jpg" alt="Игорь Демьяненко">
+          <ul>
+            <li class="team-member">
+              <img src="images/member1.jpg" alt="Игорь Демьяненко" />
               <div>
                 <p>Игорь Демьяненко</p>
                 <p>Product Designer</p>
               </div>
-            </div>
-            <div class="team-member">
-              <img src="images/member2.jpg" alt="Ольга Репина">
+            </li>
+            <li class="team-member">
+              <img src="images/member2.jpg" alt="Ольга Репина" />
               <div>
                 <p>Ольга Репина</p>
                 <p>Frontend Developer</p>
               </div>
-            </div>
-            <div class="team-member">
-              <img src="images/member3.jpg" alt="Николай Тарасов">
+            </li>
+            <li class="team-member">
+              <img src="images/member3.jpg" alt="Николай Тарасов" />
               <div>
                 <p>Николай Тарасов</p>
                 <p>Marketing</p>
               </div>
-            </div>
-            <div class="team-member">
-              <img src="images/member4.jpg" alt="Михаил Ермаков">
+            </li>
+            <li class="team-member">
+              <img src="images/member4.jpg" alt="Михаил Ермаков" />
               <div>
                 <p>Михаил Ермаков</p>
                 <p>UI Designer</p>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
       </main>
-        <!-- Footer section -->
+      <!-- Footer section -->
       <footer>
         <div class="logo"><span>Web</span>Studio</div>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="mailto:info@example.com">info@example.com</a><br>
+        <address>
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+        </address>
+        <a href="mailto:info@example.com">info@example.com</a><br />
         <a href="tel:+380991111111">+38&nbsp;099&nbsp;111&nbsp;11&nbsp;11</a>
       </footer>
     </div>
